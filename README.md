@@ -2,50 +2,52 @@
 
 # AutoFormFills
 
-AutoFormFill es una herramienta que automatiza el proceso de llenado de formularios de Google. Esta aplicación se diseñó para ahorrar tiempo en la tarea de completar repetidamente formularios similares o idénticos. La herramienta llena automáticamente las **preguntas de selección** en formularios de Google de manera aleatoria.
+[English](https://translate.google.com/?hl=es&sl=es&tl=en&text=readme%20en%20ingles&op=translate) · [Spanish](https://translate.google.com/?hl=es&sl=es&tl=en&text=readme%20en%20ingles&op=translate)
+
+AutoFormFill is a tool that automates the process of filling out Google forms. This app was designed to save you time from repeatedly filling out similar or identical forms. The tool automatically fills **screening questions** on Google forms randomly.
 
 ![demo](./src/demo.gif)
 
-## Cómo se Creó
+## How was created
 
-Este proyecto se desarrolló utilizando [Python](https://www.python.org/) y [Selenium](https://selenium-python.readthedocs.io/), una biblioteca de automatización web. El programa interactúa con el navegador web para seleccionar respuestas aleatorias en las preguntas de selección.
+This project was developed using [Python](https://www.python.org/) and [Selenium](https://selenium-python.readthedocs.io/), a web automation library. The program interacts with the web browser to select random answers to screening questions.
 
-## Requisitos Previos
+## Previous requirements
 
-Antes de ejecutar esta herramienta, debes tener [Python](https://www.python.org/downloads/) instalado en tu sistema. Además, asegúrate de que el controlador de Selenium para tu navegador esté configurado correctamente. En este caso, se ha utilizado el controlador de Chrome.
+Before running this tool, you must have [Python](https://www.python.org/downloads/) installed on your system. Also, make sure the Selenium driver for your browser is configured correctly. In this case, the Chrome driver has been used.
 
-## Cómo Ejecutar
+## How to Run
 
-1. Clona este repositorio en tu sistema local:
+1. Clone this repository to your local system:
 
 ```
 git clone https://github.com/tuusuario/AutoFormFill.git
 ```
 
-2. Navega a la carpeta del repositorio:
+2. Navigate to the repository folder:
 
 ```
 cd AutoFormFill
 ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Edita el archivo index.py con los parametros que se ajusten a tu formulario.
+4. Edit the index.py file with the parameters that fit your form.
 
 ###
 
-5. Ejecuta el programa:
+5. Run the program:
 
 ```
 python auto_form_fill.py
 ```
 
-Sigue las instrucciones proporcionadas por el programa para completar un formulario de Google de manera automática.
+Follow the instructions provided by the program to fill out a Google form automatically.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, por favor abre un issue o una pull request.
+If you want to contribute to this project, please open an issue or a pull request.
