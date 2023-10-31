@@ -2,7 +2,7 @@
 
 # AutoFormFills
 
-[English](https://translate.google.com/?hl=es&sl=es&tl=en&text=readme%20en%20ingles&op=translate) · [Spanish](https://translate.google.com/?hl=es&sl=es&tl=en&text=readme%20en%20ingles&op=translate)
+[English](https://github.com/AnderMendoza/AutoFormFill/blob/main/README.md) · [Spanish](https://github.com/AnderMendoza/AutoFormFill/blob/main/READMEsp.md)
 
 AutoFormFill is a tool that automates the process of filling out Google forms. This app was designed to save you time from repeatedly filling out similar or identical forms. The tool automatically fills **screening questions** on Google forms randomly.
 
